@@ -1,0 +1,8 @@
+%h1 Articles#new
+%p Find me in app/views/articles/new.html.erb
+
+=form_for(@article) do |f|
+  .field
+    = f.label "Titulo"
+    = f.text_field :title
+
